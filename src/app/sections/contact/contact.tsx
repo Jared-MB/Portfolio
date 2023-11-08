@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../layout'
+import Layout from '../section-layout'
 import SectionTitle from '../components/section-title'
 
 import { FiGithub } from 'react-icons/fi'
@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <Layout id='contact'>
+    <Layout _id='contact'>
       <SectionTitle>Contacto</SectionTitle>
       <div className='flex justify-center items-center flex-col gap-8'>
         <div className='flex items-center gap-4'>

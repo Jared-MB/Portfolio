@@ -1,12 +1,12 @@
 import React from 'react'
-import Layout from '../layout'
+import Layout from '../section-layout'
 import SectionTitle from '../components/section-title'
 import Image from 'next/image'
 import { Logo, LogosContainer } from './components'
 
 export default function Technologies() {
   return (
-    <Layout id='technologies'>
+    <Layout _id='technologies'>
       <SectionTitle>Tecnologías</SectionTitle>
       <div className='grid grid-cols-3 place-items-center px-16'>
         <LogosContainer title='Front-end'>

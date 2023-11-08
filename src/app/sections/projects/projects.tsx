@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../layout'
+import Layout from '../section-layout'
 import { Project } from './components'
 import SectionTitle from '../components/section-title'
 
 export default function Projects() {
   return (
-    <Layout id='projects'>
+    <Layout _id='projects'>
       <SectionTitle>Proyectos</SectionTitle>
       <div className='flex flex-col gap-12'>
         <Project 

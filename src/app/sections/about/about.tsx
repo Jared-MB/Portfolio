@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../layout'
+import Layout from '../section-layout'
 
 export default function About() {
   return (
-    <Layout id='home'>
+    <Layout _id='home'>
       <div className='flex flex-col items-center gap-4'>
         <h1 className='font-bold text-4xl'>Hola, soy <span className='text-purple-500'>Jared</span></h1>
         <h2 className='font-semibold text-2xl'>Desarrollador web</h2>
